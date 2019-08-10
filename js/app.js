@@ -1,6 +1,6 @@
 const notesContainer = document.getElementById('notesContainer')
 
-const SERVER_URL = 'http://localhost:3000/notes'
+const SERVER_URL = 'https://vijit-notes-api.herokuapp.com/notes'
 
 const noteCard = note => /*html*/ `
     <div class='card'>
